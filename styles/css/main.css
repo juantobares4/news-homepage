@@ -1,0 +1,22 @@
+@import url('./components.css');
+
+@import url('./typography.css');
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+
+}
+
+*{
+  margin: 0;
+
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  
+}
+
