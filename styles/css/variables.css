@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root{
   /* Primary Colors */
   --soft-orange: hsl(35, 77%, 62%);
@@ -10,7 +12,8 @@
   --very-dark-blue: hsl(240, 100%, 5%);
 
   /* Font */
-  --font-size: 0.938rem;
+  --main-font: 'Inter', sans-serif; 
+  --fs-normal: 0.938rem;
   --fw-normal: 400;
   --fw-bold: 700;
   --fw-extrabold: 800; 

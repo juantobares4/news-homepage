@@ -1,8 +1,17 @@
 @import url('./variables.css');
 
-a{
-  text-decoration: none;
+h1{ font-family: var(--main-font); font-weight: 800; }
+
+h2, h3{ font-family: var(--main-font); font-weight: 700; }
+
+a{ text-decoration: none; color: var(--dark-grayish-blue); }
+
+a:hover{ color: var(--very-dark-blue) !important; }
+
+p{ 
+  font-size: var(--fs-normal); 
+  font-family: var(--main-font); 
+  font-weight: 400; 
+  color: var(--dark-grayish-blue);
 
 }
-
-p{ font-size: 0.938rem; }

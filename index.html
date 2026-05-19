@@ -7,87 +7,102 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <title>Frontend Mentor | News homepage by Juan Cruz Tobares</title>
   <link rel="stylesheet" href="/styles/css/main.css">
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body class="container">
   <header class="header">
     <nav class="header__nav">
       <div class="header__logo">
-        logo
+        <img class="main-logo" src="/assets/images/logo.svg" alt="Logo Principal">
       </div>
       <div class="header__links">
         <ul>
           <li>  
-            <a href="#"></a>
+            <a href="#">Home</a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#"></a>
+            <a href="#">New</a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#"></a>
+            <a href="#">Popular</a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#"></a>
+            <a href="#">Trending</a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#"></a>
+            <a href="#">Categories  </a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
   <main class="container">
-    <div class="layout mt-5">
+    <div class="layout">
       <section class="layout__hero-img">
-        imagen<!-- <img src="/assets/images/image-web-3-desktop.jpg" alt=""> -->
+        <img src="/assets/images/image-web-3-desktop.jpg" alt="">
       </section>
       <aside class="layout__sidebar">
         <section class="layout__sidebar-content">
-          <h2>New</h2>
-          <article>
+          <h2 class="sidebar__title">New</h2>
+          <article class="sidebar__article border-bottom mt-4">
             <h3>Hydrogen VS Electric Cars</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus assumenda praesentium impedit dolor exercitationem? Cupiditate sit necessitatibus dolorem, consequatur id quis cum inventore fugiat soluta voluptatibus tempore debitis blanditiis perspiciatis!</p>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
           </article>
-          <article>
+          <article class="sidebar__article border-bottom">
             <h3>The Downsides of AI Artistry</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus autem asperiores commodi, a ullam non placeat provident aliquid corporis ipsum itaque dicta reprehenderit maxime corrupti sequi accusantium molestiae totam enim.</p>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
           </article>
-          <article>
+          <article class="sidebar__article">
             <h3>Is VC Funding Drying Up</h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
           </article>
         </section>
       </aside>
-      <section class="layout__hero-title">
-        <h1>
-          The Bright Future of Web 3.0  
-        </h1>
-      </section>
-      <section class="layout__hero-content">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero. Omnis accusamus autem est. Libero expedita mollitia quisquam dolore aliquid laboriosam rerum sequi nam eligendi totam, molestiae magni explicabo fuga.
-        </p>
-        <button>Read More</button>
+      <section class="layout__hero-container">
+        <div class="layout__hero-title">
+          <h1>
+            <span class="d-block">The Bright</span> <span class="d-block">Future of</span> Web 3.0?  
+          </h1>
+        </div>
+        <div class="layout__hero-content">
+          <p>
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?
+          </p>
+          <button>Read More</button>
+        </div>
       </section>
       <section class="layout__cards-container">
         <article class="layout__cards">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit ipsum error repellendus quo vero obcaecati alias esse ullam deleniti voluptatibus sequi fugiat, omnis animi nobis, dicta saepe natus quam!
+          <img src="/assets/images/image-retro-pcs.jpg" alt="PCs Retro">
+          <div class="layout__cards-content">
+            <p class="layout__cards-number">01</p>
+            <h3 class="layout__cards-title">Reviving Retro PCs</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
         </article>
         <article class="layout__cards">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aut iusto unde recusandae exercitationem incidunt dolores nihil eos aliquid quae nobis molestiae esse sapiente sequi magnam inventore, fugit rerum explicabo.
+          <img src="/assets/images/image-top-laptops.jpg" alt="Laptops">
+          <div class="layout__cards-content">
+            <p class="layout__cards-number">02</p>
+            <h3 class="layout__cards-title">Top 10 Laptops of 2022</h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>  
         </article>
         <article class="layout__cards">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repellendus illum, commodi ipsa enim error, tenetur a sint dolores quo magnam ex. Veritatis quam quod perspiciatis expedita doloribus? Distinctio, suscipit!
+          <img src="/assets/images/image-gaming-growth.jpg" alt="El auge del gaming">
+          <div class="layout__cards-content">
+            <p class="layout__cards-number">03</p>
+            <h3 class="layout__cards-title">The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
         </article>
       </section>
     </div>
