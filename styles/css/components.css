@@ -25,6 +25,11 @@
 
 }
 
+.header__links ul li a:hover{
+  color: var(--grayish-blue);
+
+}
+
 .layout{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -63,6 +68,8 @@
   color: var(--off-white);
 
 }
+
+.sidebar__article h3:hover{ color: var(--soft-orange); cursor: pointer; }
 
 .sidebar__article{
   margin-bottom: 50px;
@@ -113,11 +120,11 @@ button{
   color: #000;
   padding-inline: 2rem;
   border: none;
-  padding-block: 0.5rem;
+  padding-block: 0.7rem;
 
 }
 
-button:hover{ color: var(--off-white); background-color: hsl(5, 81%, 52%); }
+button:hover{ color: var(--off-white); background-color: var(--very-dark-blue); }
 
 .layout__cards-container{
   display: grid;
@@ -161,6 +168,8 @@ button:hover{ color: var(--off-white); background-color: hsl(5, 81%, 52%); }
   font-size: 1.2rem;
 
 }
+
+.layout__cards-title:hover{ color: var(--soft-red); cursor: pointer; }
 
 .attribution { 
   font-size: 0.6875rem; 
