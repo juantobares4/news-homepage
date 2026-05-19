@@ -75,7 +75,6 @@
 }
 
 .layout__hero-container{
-  margin-top: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
@@ -113,7 +112,7 @@ button{
 
 }
 
-button:hover{ color: var(--off-white); }
+button:hover{ color: var(--off-white); background-color: hsl(5, 81%, 52%); }
 
 .layout__cards-container{
   display: grid;
