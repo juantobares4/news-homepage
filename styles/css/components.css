@@ -93,7 +93,12 @@
 }
 
 .layout__hero-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   padding-inline-end: 2rem;
+  align-items: flex-start;
+  height: 100%;
 
 }
 
