@@ -28,7 +28,7 @@ Los usuarios deberían poder hacer:
 
 ### Capturas de pantalla
 
-![Proyecto finalizado en pantalla 1400px](./design-screenshots/desktop-device.png.jpg)
+![Proyecto finalizado en pantalla 1400px](./design-screenshots/desktop-device.png)
 
 ![Proyecto finalizado en pantalla 820px](./design-screenshots/tablet-device.png)
 
