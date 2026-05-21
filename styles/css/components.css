@@ -129,7 +129,7 @@
 
 }
 
-button:hover{ color: var(--off-white); background-color: var(--very-dark-blue); }
+.layout__hero-button:hover{ color: var(--off-white); background-color: var(--very-dark-blue); }
 
 .layout__cards-container{
   display: grid;
