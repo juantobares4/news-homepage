@@ -89,7 +89,6 @@
 .layout__hero-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
   grid-column: span 2 / span 2;
   grid-row: span 2 / span 2;
   grid-row-start: 3;
@@ -104,10 +103,15 @@
 
 }
 
+.layout__hero-content p{
+  padding: 1.2rem;
+
+}
+
 .layout__hero-content{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-inline-end: 2rem;
   align-items: flex-start;
   height: 100%;
@@ -125,7 +129,7 @@
   color: #000;
   padding-inline: 2rem;
   border: none;
-  padding-block: 0.7rem;
+  padding-block: 1rem;
 
 }
 
@@ -251,6 +255,11 @@
 
   }
 
+  .layout__hero-content p{
+    padding: 0;
+
+  }
+
   .layout__sidebar{
     order: 2;
 
@@ -307,6 +316,11 @@
     grid-column: span 2;
     grid-row: 2;
   
+  }
+  
+  .layout__hero-title h1{
+    text-align: center;
+
   }
   
   .layout__sidebar{
