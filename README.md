@@ -1,6 +1,6 @@
 # Frontend Mentor - Time Tracking Dashboard Solución
 
-Esta es una solución de [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta es una solución de [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Los desafíos de Frontend Mentor ayudan a mejorar tus habilidades de programación construyendo proyectos realistas.
 
 ## Tabla de contenidos
 
