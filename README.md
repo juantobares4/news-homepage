@@ -11,7 +11,7 @@ Esta es una solución de [News homepage challenge on Frontend Mentor](https://ww
 - [Mi proceso](#mi-proceso)
   - [Construido con...](#construido-con)
   - [Que aprendi](#que-aprendi)
-  - [Continuar desarrollando](#continued-development)
+  - [Continuar desarrollando](#continuar-desarrollando)
   - [Recursos útiles](#recursos-utiles)
   - [IAs utilizadas](#IAs-utilizadas)
 - [Autor](#autor)
